@@ -9,5 +9,10 @@
 </head>
 <body>
   <app-root></app-root>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <div ng-app="">
+    <p>name: <input type="text" name="para" id="para" ng-model="name"></p>
+    <p ng-bind="name"></p>
+  </div>
 </body>
 </html>

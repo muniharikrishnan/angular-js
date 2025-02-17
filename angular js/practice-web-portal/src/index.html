@@ -18,7 +18,16 @@
     <div ng-app="" ng-init="firstname='ben10'">
       <p>the name is <span ng-bind="firstname"></span></p>
     </div>
-
+<div data-ng-app="" data-ng-init="myhero='ben10'">
+  
+  <p data-ng-bind="myhero"></p>
+  
+</div>
   </div>
+
+<div ng-app="" >
+  <p>My first expression: {{5 + 5}}</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 </body>
 </html>
